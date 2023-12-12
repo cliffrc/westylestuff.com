@@ -17,17 +17,18 @@ const josefin = Josefin_Sans({
 
 export const metadata = {
   title: {
-    template: "%s | cliff",
-    default: "Cliff", // a default is required when creating a template
+    template: "%s | We Style Stuff",
+    default: "We Style Stuff", // a default is required when creating a template
   },
   description:
-    "A founder + software engineer intern at 10strata who loves learning the marketing ropes",
-  keywords: ["Next.js", "React", "Tailwindcss", "web development"],
+    "A branding and web agemcy with ideals honed in creative coding.",
+  keywords: ["branding", "web development", "creativity", "creative coding"],
   generator: "Next.js",
-  applicationName: "cliffrc.nl",
+  applicationName: "westylestuff.com",
   referrer: "origin-when-cross-origin",
-  authors: [{ name: "Cliff", url: "https://cliffrc.nl" }],
+  authors: [{ name: "We Style Stuff", url: "https://westylestuff.com" }],
   creator: "Cliff Cunnington",
+  owner: "We Style Stuff | A Cliff Cunnington Enterprise",
   publisher: "Cliff Cunnington Enterprise",
   formatDetection: {
     email: false,

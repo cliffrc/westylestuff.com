@@ -28,8 +28,8 @@ const Footer = () => {
       </div>
       <div className="border-t-[1px] border-zinc-600/50 p-6 ">
         <p className="small-caps text-xs">
-          &copy; {lightFormat(new Date(), "yyyy")} {metadata.creator}. All
-          rights reserved.
+          &copy; {lightFormat(new Date(), "yyyy")} {metadata.owner}. All rights
+          reserved.
         </p>
         <small className="small-caps text-[0.675rem] font-normal tracking-wide text-zinc-400">
           {/** Add this to metadata in layout and use metadata object to pull in code. Do same with date*/}

@@ -3,6 +3,7 @@ import Contact from "@/components/Contact";
 import Experience from "@/components/Experience";
 import Intro from "@/components/Intro";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
+import Overlay from "@/components/Overlay";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 
@@ -26,6 +27,7 @@ export default function Home() {
       </div>
       {/* This is for the page content components */}
       <MaxWidthWrapper className="max-w-screen mx-auto items-center sm:max-w-4xl">
+        <Overlay />
         <Intro />
         <About />
         <Skills />
