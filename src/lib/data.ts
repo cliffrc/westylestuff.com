@@ -4,16 +4,8 @@ export const navLinks = [
     hash: "#home",
   },
   {
-    name: "About",
-    hash: "#about",
-  },
-  {
-    name: "Skills",
-    hash: "#skills",
-  },
-  {
-    name: "Experience",
-    hash: "#experience",
+    name: "Services",
+    hash: "#services",
   },
   {
     name: "Projects",
@@ -29,17 +21,11 @@ export const techSkillsData = [
   "TailwindCSS",
   "Next.js",
   "TypeScript",
-  "Git",
-  "Planetscale",
+  "React",
+  "react-hook-form",
   "tRPC",
   "Prisma",
-  "Pinecone",
-  "Vercel",
-  "HTML",
   "HTMX",
-  "SQL",
-  "Python",
-  "R",
 ] as const;
 
 export const businessSkillsData = [
