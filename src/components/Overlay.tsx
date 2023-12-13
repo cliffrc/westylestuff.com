@@ -1,7 +1,7 @@
 import React from "react";
 import QuoteCard from "./quote-card";
 import martyImg from "@/public/Marty_Neumeier.jpg";
-import ourLogoImg from "@/public/westylestuff-log.png";
+import ourLogoImg from "@/public/westylestuff-logo.png";
 import Image from "next/image";
 
 const Overlay = () => {
