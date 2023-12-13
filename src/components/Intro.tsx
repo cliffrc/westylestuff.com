@@ -38,7 +38,7 @@ const Intro = () => {
         <span className=" font-bold underline">
           Cutting-Edge Development Tools
         </span>{" "}
-        like Next.js & React."{" "}
+        like Next.js & React.{" "}
         <span className=" font-bold underline">
           Innovative Tech like TypeScript and Prisma
         </span>{" "}
