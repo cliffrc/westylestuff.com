@@ -36,11 +36,7 @@ const Contact = () => {
       <h2 className="mb-2 text-2xl font-semibold">Contact</h2>
 
       <p className=" -mt-1  text-gray-700 dark:text-white/80">
-        Please contact me directly at{" "}
-        <a className="underline" href="mailto:hi@cliffrc.nl">
-          hi@cliffrc.nl
-        </a>{" "}
-        or through this form.
+        Please contact us directly through this form.
       </p>
 
       {/* <!-- The FORM --> */}
