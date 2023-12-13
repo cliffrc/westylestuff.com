@@ -1,5 +1,3 @@
-import { techSkillsData } from "@/lib/data";
-import React from "react";
 /* pill-box with title*/
 
 interface PillBoxProps {
