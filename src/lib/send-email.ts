@@ -30,7 +30,7 @@ export const sendEmail = async (formData: TContactSchema) => {
     data = await resend.emails.send({
       from: "Contact Form <onboarding@resend.dev>",
       to: "cliff@10strata.com",
-      subject: `A Message from cliffrc site [${firstName}]`,
+      subject: `A Message from westylestuff site [${firstName}]`,
       reply_to: senderEmail as string,
       react: React.createElement(ContactFormEmail, {
         firstName: firstName as string,
