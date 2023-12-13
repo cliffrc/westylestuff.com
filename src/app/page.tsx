@@ -5,7 +5,7 @@ import Intro from "@/components/Intro";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import Overlay from "@/components/Overlay";
 import Projects from "@/components/Projects";
-import Skills from "@/components/Skills";
+import Services from "@/components/Services";
 
 export default function Home() {
   return (
@@ -30,8 +30,8 @@ export default function Home() {
         <Overlay />
         <Intro />
         <About />
-        <Skills />
-        <Experience />
+        <Services />
+        {/* <Experience /> */}
         <Projects />
         <Contact />
       </MaxWidthWrapper>
