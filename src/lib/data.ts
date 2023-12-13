@@ -17,7 +17,7 @@ export const navLinks = [
   },
 ] as const;
 
-export const techSkillsData = [
+export const techServiceData = [
   "TailwindCSS",
   "Next.js",
   "TypeScript",
@@ -28,7 +28,7 @@ export const techSkillsData = [
   "HTMX",
 ] as const;
 
-export const businessSkillsData = [
+export const businessServiceData = [
   "Social Media Marketing",
   "Content Repurposing",
   "Content Marketing",
@@ -36,7 +36,7 @@ export const businessSkillsData = [
   "Ideation (ChatGPT)",
 ] as const;
 
-export const personalSkillsData = [
+export const attributesServiceData = [
   "Goal-driven",
   "Creative",
   "Tenacious",
