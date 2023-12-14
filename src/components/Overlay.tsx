@@ -7,9 +7,9 @@ import Image from "next/image";
 const Overlay = () => {
   return (
     <div>
-      <div className="fixed  left-[0vh] top-[2vh]  z-[1000] m-auto h-[98vh] w-[100vw] cursor-pointer rounded-2xl bg-zinc-200/10 backdrop-blur-sm" />
-      <div className="fixed left-[10vw] top-[10vh] z-[1002] m-auto h-[360px] w-[480px]  rounded-2xl bg-white/90 p-10  ">
-        <div className="z-[1001] -mt-10 ml-2 flex -rotate-6 flex-col items-center gap-6 text-center">
+      <div className="fixed left-0 top-0 z-[1000] m-auto mr-3 h-[98vh] w-[100vw] cursor-pointer rounded-2xl bg-zinc-200/10 backdrop-blur-sm sm:left-[0vh] sm:top-[2vh] sm:mr-0" />
+      <div className="fixed left-2 top-0  z-[1002] m-auto rounded-2xl bg-white/90 p-10 sm:left-[10vw]  sm:top-[10vh] sm:h-[360px] sm:w-[480px]  ">
+        <div className="z-[1001] -mt-4 ml-2 flex flex-col items-center gap-6 text-center sm:-rotate-6">
           <h6 className="border-1 small-caps text-4xl text-zinc-800 ">
             We Style Stuff.
           </h6>
@@ -24,13 +24,16 @@ const Overlay = () => {
             <Image
               src={ourLogoImg}
               alt="We Style Stuff graphic"
-              height={240}
-              width={240}
+              priority
+              style={{
+                width: "240px",
+                height: "auto",
+              }}
               className="mt-2 rounded-full shadow-lg outline-4 ring-4 ring-gray-300/40 ring-offset-2"
             />
           </div>
         </div>
-        <div className="fixed bottom-10 right-10 z-[999] rotate-3">
+        <div className="fixed bottom-2 right-1 z-[900]  rotate-3 sm:bottom-10 sm:right-10 sm:rotate-3">
           <QuoteCard
             imgSrc={martyImg}
             attribution="Marty Neumeier"

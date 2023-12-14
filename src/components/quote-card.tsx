@@ -16,30 +16,33 @@ const QuoteCard = ({
   imgSrc,
 }: QuoteCardProps) => {
   return (
-    <div className="mx-auto w-full max-w-[500px] rounded-lg bg-white/90 px-5 pb-12 pt-5 text-gray-800 shadow-lg">
-      <div className="w-full pb-5 pt-1">
-        <div className="mx-auto -mt-10 h-20 w-20 overflow-hidden rounded-full shadow-lg outline-4 ring-2 ring-zinc-800/30  ring-offset-2  ">
+    <div className="mx-auto rounded-lg border-black bg-white text-gray-800 shadow-lg sm:w-full sm:max-w-[500px] sm:border-0 sm:px-5 sm:pb-12 sm:pt-5 sm:opacity-90">
+      <div className="pt-1 sm:w-full sm:pb-5">
+        <div className="mx-auto h-10 w-10 overflow-hidden  rounded-full shadow-lg outline-4 ring-2 ring-zinc-800/30 ring-offset-2 sm:-mt-10 sm:h-20  sm:w-20">
           <Image
             src={imgSrc}
             alt="{attribution}"
-            width={128}
-            height={128}
+            priority
+            style={{
+              width: "128px",
+              height: "auto",
+            }}
             className="-rotate-[10deg] sepia-[.7]"
           />
         </div>
       </div>
-      <div className="mb-10 w-full">
+      <div className="sm:mb-10 sm:w-full">
         <div className="h-3 text-left text-3xl leading-tight text-teal-600">
           “
         </div>
         <p className="small-caps px-5 text-center text-sm text-zinc-600">
           {children}
         </p>
-        <div className="-mt-3 h-3 text-right text-3xl leading-tight text-teal-600">
+        <div className="h-3 text-right text-3xl leading-tight text-teal-600">
           ”
         </div>
       </div>
-      <div className="w-full">
+      <div className="sm:w-full">
         <p className="text-md text-center font-semibold text-teal-600">
           {attribution}
         </p>
