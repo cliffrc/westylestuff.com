@@ -18,7 +18,7 @@ const Overlay = () => {
               <span className="small-caps align-sup text-4xl text-teal-600/70">
                 We
               </span>{" "}
-              will be launching in December 2023
+              will be launching in January 2024
             </p>
 
             <Image
